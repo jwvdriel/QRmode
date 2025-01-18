@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+  --slate300: #d5e1ef;
+  --slate500: #68778d;
+  --slate900: #1f314f;
+  --white: #ffffff;
+
+  /* Fonts */
+  --main-font: 'Outfit', serif;
+
+  /* spacing between slates */
+  --spacing-500: 2.5rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+}
+
+@media (max-width: 378px) {
+}
