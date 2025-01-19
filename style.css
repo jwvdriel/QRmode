@@ -14,6 +14,8 @@
   --spacing-200: 1rem;
 }
 
+/* mobile design */
+
 * {
   margin: 0;
   padding: 0;
@@ -36,4 +38,38 @@ body {
   height: 31.1875rem;
   margin: 9.78rem auto;
   border-radius: 20px;
+}
+
+.card {
+  padding: 1rem 1rem 2.5rem 1rem;
+  height: auto;
+}
+
+.text_container {
+  text-align: center;
+  padding-top: 1.5rem;
+  width: 288px;
+  height: 131px;
+}
+
+.text_container h1 {
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 120%;
+  padding-bottom: 1rem;
+  color: var(--slate900);
+}
+
+.text_container p {
+  color: var(--slate500);
+  font-size: 0.9375rem;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* destop design */
+@media (min-width: 1440px) {
+  .background-container {
+    margin: 14.40625rem 35rem;
+  }
 }
