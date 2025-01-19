@@ -23,6 +23,9 @@
 }
 
 body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
   background-color: var(--slate300);
   font-family: var(--main-font);
 }
@@ -30,14 +33,17 @@ body {
 .background-container {
   background-color: var(--white);
   width: 20rem;
-  height: 31.1875rem;
-  margin: 9.78rem auto;
+  max-width: 100%;
   border-radius: 20px;
 }
 
 .card {
   padding: 1rem 1rem 2.5rem 1rem;
   height: auto;
+}
+
+.card img {
+  width: 100%;
 }
 
 .text_container {
@@ -65,6 +71,6 @@ body {
 /* destop design */
 @media (min-width: 1440px) {
   .background-container {
-    margin: 14.40625rem auto;
+    max-height: 100%;
   }
 }
