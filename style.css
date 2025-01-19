@@ -70,6 +70,6 @@ body {
 /* destop design */
 @media (min-width: 1440px) {
   .background-container {
-    margin: 14.40625rem 35rem;
+    margin: 14.40625rem auto;
   }
 }
