@@ -14,5 +14,26 @@
   --spacing-200: 1rem;
 }
 
-@media (max-width: 378px) {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--slate300);
+  font-family: var(--main-font);
+}
+
+.container {
+  min-width: 23.4375rem;
+  height: 100vh;
+}
+
+.background-container {
+  background-color: var(--white);
+  width: 20rem;
+  height: 31.1875rem;
+  margin: 0 auto;
+  border-radius: 20px;
 }
