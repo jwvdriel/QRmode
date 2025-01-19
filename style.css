@@ -27,11 +27,6 @@ body {
   font-family: var(--main-font);
 }
 
-.container {
-  min-width: 23.4375rem;
-  height: 100vh;
-}
-
 .background-container {
   background-color: var(--white);
   width: 20rem;
